@@ -18,6 +18,21 @@ async def typewriter(typew):
     await typew.edit("gasukaa😫")
     sleep(1)
     await typew.edit("__GELAYY__🤮")
+   
+    
+     @register(outgoing=True, pattern='^.hi(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**HI! kaum tol**")
+    sleep(1)
+    await typew.edit("Baru nongol aja udah keliatan **TOLOL** nya")
+    sleep(1)
+    await typew.edit("Jauh jauh lo ajg")
+    sleep(1)
+    await typew.edit("Udah sono nguli")
+    sleep(1)
+    await typew.edit("awas nongol lagi yatim")
     
    
 @register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
@@ -159,6 +174,8 @@ CMD_HELP.update({
     "animasi1":
     "`•𝐒𝐲𝐧𝐭𝐚𝐱: .hai`\
     \n•𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧: Cosplay Nissa Sablon\
+    \n\n`•𝐒𝐲𝐧𝐭𝐚𝐱: .hi`\
+    \n•𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧: selamat datang."
     \n\n`•𝐒𝐲𝐧𝐭𝐚𝐱: .kntl`\
     \n•𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧: Cek Aja dh\
     \n\n`•𝐒𝐲𝐧𝐭𝐚𝐱: .alay`\
