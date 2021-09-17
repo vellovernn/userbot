@@ -223,14 +223,14 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**🔥𝙋𝙤𝙘𝙤𝙣𝙜𝙐𝙨𝙚𝙧𝙗𝙤𝙩  𝙏𝙚𝙡𝙖𝙝𝘼𝙠𝙩𝙞𝙛🔥** \n\n"
+        f"**🔥𝗞𝗶𝗹𝗹𝗲𝗿𝗔𝗻𝗴𝗲𝗹𝘀  𝙏𝙚𝙡𝙖𝙝𝘼𝙠𝙩𝙞𝙛🔥** \n\n"
         f"┣❏😈 **Master**: `{DEFAULTUSER}` \n"
         f"┣❏🔎 **Username**: `@{user.username}` \n"
         f"┣❏🐍 **Python**:  `Versi {python_version()}` \n"
         f"┣❏🤖 **Bot Versi**: `{BOT_VER}` \n"
         f"┣❏🗃 **Plugins**: `{len(modules)} Plugins` \n"
         f"┣❏👾 **Telethon**: `Versi {version.__version__}`\n\n"
-        f"📌 REPO [POCONG USERBOT](https://github.com/poocong/Pocong-Userbot)\n")
+        f"📌 REPO [POCONG USERBOT](https://github.com/vellovernn/userbot)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -262,7 +262,7 @@ async def amireallyalive(alive):
     sleep(2)    
     output = (   
         f"**╭╼═✯══════════════✯═╾╮**\n"
-        f"ㅤㅤㅤ**≛ 𝙋𝙤𝙘𝙤𝙣𝙜 - 𝙐𝙨𝙚𝙧𝙗𝙤𝙩≛** \n"
+        f"ㅤㅤㅤ**≛ 𝗞𝗶𝗹𝗹𝗲𝗿 - 𝗔𝗻𝗴𝗲𝗹𝘀≛** \n"
         f"**╰╼═✯══════════════✯═╾╯**\n"
         f"**𝐀𝐲𝐨 𝐌𝐞𝐧𝐲𝐞𝐫𝐚𝐡 𝐍𝐠𝐚𝐩𝐚𝐢𝐧 𝐒𝐞𝐦𝐚𝐧𝐠𝐚𝐭..!** \n"
         f"**╔══════════✹══════════╗** \n"
@@ -272,9 +272,9 @@ async def amireallyalive(alive):
         f"➨ **𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗** ㅤ  :   `Versi {version.__version__}` \n"
         f"➨ **𝚅𝚎𝚛𝚜𝚒𝚘𝚗**    ㅤ  :   `{BOT_VER}` \n"
         f"**╚══════════✹══════════╝**\n"
-        f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[SENTUH AKU SAYNG](t.me/Pocongonlen) \n"
+        f"ㅤ ㅤ🔰**•PEMILIK•**ㅤ :  ㅤ[SENTUH AKU SAYNG](t.me/Nekoyatoru) \n"
         f"**▰▱▰▱▰▱▰▱✯▰▱▰▱▰▱▰**\n"
-        f"ㅤ[👥Grup Oficial](t.me/PocongUserbot)  |--|  [📍REPO](https://github.com/poocong/Pocong-Userbot)")
+        f"ㅤ[👥Grup Oficial](t.me/TheAngelsDead)  |--|  [📍REPO](https://github.com/vellovernn/userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
